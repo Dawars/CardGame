@@ -1,0 +1,449 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net5.0-windows</TargetFramework>
+        <UseWPF>true</UseWPF>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Remove="Dixit\back.jpg" />
+      <None Remove="Dixit\img005.jpg" />
+      <None Remove="Dixit\img006.jpg" />
+      <None Remove="Dixit\img007.jpg" />
+      <None Remove="Dixit\img008.jpg" />
+      <None Remove="Dixit\img009.jpg" />
+      <None Remove="Dixit\img010.jpg" />
+      <None Remove="Dixit\img011.jpg" />
+      <None Remove="Dixit\img012.jpg" />
+      <None Remove="Dixit\img013.jpg" />
+      <None Remove="Dixit\img014.jpg" />
+      <None Remove="Dixit\img015.jpg" />
+      <None Remove="Dixit\Nevtelen-1.jpg" />
+      <None Remove="Dixit\Nevtelen-10.jpg" />
+      <None Remove="Dixit\Nevtelen-11.jpg" />
+      <None Remove="Dixit\Nevtelen-12.jpg" />
+      <None Remove="Dixit\Nevtelen-13.jpg" />
+      <None Remove="Dixit\Nevtelen-14.jpg" />
+      <None Remove="Dixit\Nevtelen-15.jpg" />
+      <None Remove="Dixit\Nevtelen-16.jpg" />
+      <None Remove="Dixit\Nevtelen-17.jpg" />
+      <None Remove="Dixit\Nevtelen-18.jpg" />
+      <None Remove="Dixit\Nevtelen-19.jpg" />
+      <None Remove="Dixit\Nevtelen-2.jpg" />
+      <None Remove="Dixit\Nevtelen-20.jpg" />
+      <None Remove="Dixit\Nevtelen-21.jpg" />
+      <None Remove="Dixit\Nevtelen-22.jpg" />
+      <None Remove="Dixit\Nevtelen-23.jpg" />
+      <None Remove="Dixit\Nevtelen-24.jpg" />
+      <None Remove="Dixit\Nevtelen-25.jpg" />
+      <None Remove="Dixit\Nevtelen-26.jpg" />
+      <None Remove="Dixit\Nevtelen-27.jpg" />
+      <None Remove="Dixit\Nevtelen-28.jpg" />
+      <None Remove="Dixit\Nevtelen-29.jpg" />
+      <None Remove="Dixit\Nevtelen-3.jpg" />
+      <None Remove="Dixit\Nevtelen-30.jpg" />
+      <None Remove="Dixit\Nevtelen-31.jpg" />
+      <None Remove="Dixit\Nevtelen-32.jpg" />
+      <None Remove="Dixit\Nevtelen-33.jpg" />
+      <None Remove="Dixit\Nevtelen-34.jpg" />
+      <None Remove="Dixit\Nevtelen-4.jpg" />
+      <None Remove="Dixit\Nevtelen-5.jpg" />
+      <None Remove="Dixit\Nevtelen-6.jpg" />
+      <None Remove="Dixit\Nevtelen-7.jpg" />
+      <None Remove="Dixit\Nevtelen-9.jpg" />
+      <None Remove="Dixit\Névtelen-10.jpg" />
+      <None Remove="Dixit\Névtelen-11.jpg" />
+      <None Remove="Dixit\Névtelen-12.jpg" />
+      <None Remove="Dixit\Névtelen-13.jpg" />
+      <None Remove="Dixit\Névtelen-14.jpg" />
+      <None Remove="Dixit\Névtelen-15.jpg" />
+      <None Remove="Dixit\Névtelen-16.jpg" />
+      <None Remove="Dixit\Névtelen-17.jpg" />
+      <None Remove="Dixit\Névtelen-18.jpg" />
+      <None Remove="Dixit\Névtelen-19.jpg" />
+      <None Remove="Dixit\Névtelen-2.jpg" />
+      <None Remove="Dixit\Névtelen-20.jpg" />
+      <None Remove="Dixit\Névtelen-21.jpg" />
+      <None Remove="Dixit\Névtelen-22.jpg" />
+      <None Remove="Dixit\Névtelen-23.jpg" />
+      <None Remove="Dixit\Névtelen-24.jpg" />
+      <None Remove="Dixit\Névtelen-25.jpg" />
+      <None Remove="Dixit\Névtelen-26.jpg" />
+      <None Remove="Dixit\Névtelen-27.jpg" />
+      <None Remove="Dixit\Névtelen-28.jpg" />
+      <None Remove="Dixit\Névtelen-29.jpg" />
+      <None Remove="Dixit\Névtelen-3.jpg" />
+      <None Remove="Dixit\Névtelen-30.jpg" />
+      <None Remove="Dixit\Névtelen-31.jpg" />
+      <None Remove="Dixit\Névtelen-32.jpg" />
+      <None Remove="Dixit\Névtelen-33.jpg" />
+      <None Remove="Dixit\Névtelen-34.jpg" />
+      <None Remove="Dixit\Névtelen-4.jpg" />
+      <None Remove="Dixit\Névtelen-5.jpg" />
+      <None Remove="Dixit\Névtelen-6.jpg" />
+      <None Remove="Dixit\Névtelen-7.jpg" />
+      <None Remove="Dixit\Névtelen-9.jpg" />
+      <None Remove="Francia\101.jpg" />
+      <None Remove="Francia\102.jpg" />
+      <None Remove="Francia\103.jpg" />
+      <None Remove="Francia\104.jpg" />
+      <None Remove="Francia\21.jpg" />
+      <None Remove="Francia\22.jpg" />
+      <None Remove="Francia\23.jpg" />
+      <None Remove="Francia\24.jpg" />
+      <None Remove="Francia\31.jpg" />
+      <None Remove="Francia\32.jpg" />
+      <None Remove="Francia\33.jpg" />
+      <None Remove="Francia\34.jpg" />
+      <None Remove="Francia\41.jpg" />
+      <None Remove="Francia\42.jpg" />
+      <None Remove="Francia\43.jpg" />
+      <None Remove="Francia\44.jpg" />
+      <None Remove="Francia\51.jpg" />
+      <None Remove="Francia\52.jpg" />
+      <None Remove="Francia\53.jpg" />
+      <None Remove="Francia\54.jpg" />
+      <None Remove="Francia\61.jpg" />
+      <None Remove="Francia\62.jpg" />
+      <None Remove="Francia\63.jpg" />
+      <None Remove="Francia\64.jpg" />
+      <None Remove="Francia\71.jpg" />
+      <None Remove="Francia\72.jpg" />
+      <None Remove="Francia\73.jpg" />
+      <None Remove="Francia\74.jpg" />
+      <None Remove="Francia\81.jpg" />
+      <None Remove="Francia\82.jpg" />
+      <None Remove="Francia\83.jpg" />
+      <None Remove="Francia\84.jpg" />
+      <None Remove="Francia\91.jpg" />
+      <None Remove="Francia\92.jpg" />
+      <None Remove="Francia\93.jpg" />
+      <None Remove="Francia\94.jpg" />
+      <None Remove="Francia\a1.jpg" />
+      <None Remove="Francia\a2.jpg" />
+      <None Remove="Francia\a3.jpg" />
+      <None Remove="Francia\a4.jpg" />
+      <None Remove="Francia\j1.jpg" />
+      <None Remove="Francia\j2.jpg" />
+      <None Remove="Francia\j3.jpg" />
+      <None Remove="Francia\j4.jpg" />
+      <None Remove="Francia\k1.jpg" />
+      <None Remove="Francia\k2.jpg" />
+      <None Remove="Francia\k3.jpg" />
+      <None Remove="Francia\k4.jpg" />
+      <None Remove="Francia\q1.jpg" />
+      <None Remove="Francia\q2.jpg" />
+      <None Remove="Francia\q3.jpg" />
+      <None Remove="Francia\q4.jpg" />
+      <None Remove="Francia\y1.jpg" />
+      <None Remove="Francia\y2.jpg" />
+      <None Remove="french_card_back.png" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="Dixit\back.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Dixit\img005.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Dixit\img006.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Dixit\img007.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Dixit\img008.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Dixit\img009.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Dixit\img010.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Dixit\img011.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Dixit\img012.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Dixit\img013.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Dixit\img014.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Dixit\img015.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Dixit\Nevtelen-1.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Dixit\Nevtelen-10.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Dixit\Nevtelen-11.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Dixit\Nevtelen-12.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Dixit\Nevtelen-13.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Dixit\Nevtelen-14.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Dixit\Nevtelen-15.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Dixit\Nevtelen-16.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Dixit\Nevtelen-17.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Dixit\Nevtelen-18.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Dixit\Nevtelen-19.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Dixit\Nevtelen-2.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Dixit\Nevtelen-20.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Dixit\Nevtelen-21.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Dixit\Nevtelen-22.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Dixit\Nevtelen-23.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Dixit\Nevtelen-24.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Dixit\Nevtelen-25.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Dixit\Nevtelen-26.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Dixit\Nevtelen-27.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Dixit\Nevtelen-28.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Dixit\Nevtelen-29.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Dixit\Nevtelen-3.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Dixit\Nevtelen-30.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Dixit\Nevtelen-31.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Dixit\Nevtelen-32.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Dixit\Nevtelen-33.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Dixit\Nevtelen-34.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Dixit\Nevtelen-4.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Dixit\Nevtelen-5.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Dixit\Nevtelen-6.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Dixit\Nevtelen-7.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Dixit\Nevtelen-9.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Francia\101.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Francia\102.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Francia\103.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Francia\104.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Francia\21.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Francia\22.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Francia\23.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Francia\24.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Francia\31.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Francia\32.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Francia\33.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Francia\34.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Francia\41.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Francia\42.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Francia\43.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Francia\44.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Francia\51.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Francia\52.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Francia\53.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Francia\54.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Francia\61.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Francia\62.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Francia\63.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Francia\64.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Francia\71.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Francia\72.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Francia\73.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Francia\74.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Francia\81.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Francia\82.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Francia\83.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Francia\84.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Francia\91.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Francia\92.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Francia\93.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Francia\94.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Francia\a1.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Francia\a2.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Francia\a3.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Francia\a4.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Francia\j1.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Francia\j2.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Francia\j3.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Francia\j4.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Francia\k1.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Francia\k2.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Francia\k3.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Francia\k4.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Francia\q1.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Francia\q2.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Francia\q3.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Francia\q4.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Francia\y1.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Francia\y2.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Resource Include="french_card_back.png" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="gong-wpf-dragdrop" Version="2.3.2" />
+    </ItemGroup>
+
+</Project>
